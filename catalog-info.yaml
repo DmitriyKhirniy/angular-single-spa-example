@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "angular-single-spa-example"
+  description: "angular-single-spa-example"
+  annotations:
+    github.com/project-slug: "http://github.com/DmitriyKhirniy/angular-single-spa-example"
+    backstage.io/techdocs-ref: github:https://github.com/http://github.com/DmitriyKhirniy/angular-single-spa-example
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"

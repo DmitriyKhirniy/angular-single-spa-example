@@ -1,0 +1,8 @@
+site_name: "angular-single-spa-example"
+site_description: "angular-single-spa-example"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

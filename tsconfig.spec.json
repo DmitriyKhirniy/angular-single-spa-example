@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "angular-single-spa-example/src/polyfills.ts"
+  ],
+  "include": [
+    "angular-single-spa-example/src/**/*.spec.ts",
+    "angular-single-spa-example/src/**/*.d.ts"
+  ]
+}
